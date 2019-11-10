@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_degradasi"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:background="@drawable/background_degradasi"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="Aku adalah textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:drawableRight="@mipmap/ic_launcher"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="Aku adalah textview 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:drawableRight="@mipmap/ic_launcher"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:text="textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:drawableRight="@mipmap/ic_launcher"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:text="Aku adalah textview 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:text="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <ImageView
+            android:src="@mipmap/ic_apel"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpSLatihan1</string>
+    <string name="bahasa_indonesia">Bahasa : Indonesia</string>
+    <string name="help_signing">Lupa Password? <b>Klik Disini.</b></string>
+    <string name="daftar">Belum Punya Akun? <b>Daftar</b></string>
+    <string name="login_with_fb">Login dengan Facebook</string>
+</resources>
